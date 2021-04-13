@@ -1,10 +1,37 @@
 <!doctype html>
-<html>
+<html lang="ko">
     <head>
         <meta charset="utf-8">
         <title>Moonrise</title>
+        <div class="searchArea">
+                <fieldset>
+                    <legend>상품 검색 폼</legend>
+                    <input type="text" class="MS_search_word" name="global_search" value="" onclick="javascript:this.value=''">
+                    <a href="#none" class="btn-global-search">검색</a>
+                </fieldset>
+            </div>
     </head>
     <body>
+    
+        <style type="text/css">
+        a{
+            color:black;
+            text-decoration:none;
+        }
+        p{
+            text-align:center;
+        }
+        img
+        {
+            border:2px solid black;
+            width:190px;
+            height:250px;
+        }
+        h1{
+            font-size:45px;
+            text-align: center;
+        }
+        </style>
     <div style="float:right"><!--오른쪽 정렬-->
         <input id="Night_Day" type="button" value="Night mode" onclick="
         if (document.querySelector('#Night_Day').value ==='Night mode'){
@@ -19,7 +46,7 @@
         ">
         <!--if를 이용해서 토글키 생성-->
     </div>
-    <h1><div style="background-color:#800080"><a href="moonrise.html" id="M">　Moonrise　</a></div></h1>
+    <h1><div style="background-color:#800080"><a href="moonrise.html" id="M">Moonrise</a></div></h1>
     <!--상단에 화면채운 헤더-->
     <div style="background-color:#B0C4DE"></div>　　　
         <style type="text/css">
@@ -45,5 +72,9 @@
         <li><a href="당일발송.html">당일발송</a></li>
         </ul>
         <!--각각 링크페이지는 추후 생성-->
-    </body>
+        <p>
+        <div>
+        <a href"download1.jpg">♥MOONRISE♥ </a>
+        </p>
+    </body>=
 </html>
