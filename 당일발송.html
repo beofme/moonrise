@@ -12,6 +12,82 @@
             </div>
     </head>
     <body>
+        <style type="text/css">
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            
+            p {
+                text-align: center;
+            }
+            
+            img {
+                border: 2px solid black;
+                width: 190px;
+                height: 250px;
+            }
+            
+            h1 {
+                font-size: 45px;
+                text-align: center;
+            }
+        </style>
+        <div style="float:right">
+            <!--오른쪽 정렬-->
+            <input id="Night_Day" type="button" value="Night mode" onclick="
+            if (this.value ==='Night mode'){
+                target.style.backgroundColor='black';
+                target.style.color='white';
+                this.value ='Day mode';
+            } else {
+                target.style.backgroundColor='white';
+                target.style.color='black';
+                this.value ='Night mode'
+            }
+            ">
+            <!--if를 이용해서 토글키 생성-->
+        </div>
+        <h1>
+            <div style="background-color:#a65ac2"><a href="moonrise.html" id="M">Moonrise</a></div>
+        </h1>
+        <!--상단에 화면채운 헤더-->
+        <div style="background-color:#B0C4DE"></div>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            li {
+                float: left;
+                list-style: none;
+                margin: 1px;
+            }
+            
+            li a {
+                display: block;
+                width: 85px;
+                height: 30px;
+                background: #a7c2f3;
+                color: #FFF;
+                border3px solid blue;
+                font-size: 12px;
+                font-family: "Helvetica";
+                text-align: center;
+                padding-top: 8px;
+                text-decoration: none;
+            }
+            
+            li a span {
+                display: block;
+            }
+            
+            li a:hover {
+                background: #A9A9A9;
+                text-decoration: none;
+            }
+        </style>
     <img src="C:\Users\이선재\Desktop\moonrise\photoqueen1.jpg"/>
     </body>
 </html>
