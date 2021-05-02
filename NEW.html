@@ -1,11 +1,67 @@
 <!doctype html>
 <html>
-    <head>
-     <meta charset="utf-8">
-     <title>문라이즈-NEW</title>
-     <h1>NEW</h1>
-    </head>
-    <body>
-    <img src="사파이어.jpg">
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>문라이즈-NEW</title>
+    <div class="search">
+        <input type="text"><button>상품 검색</button>
+    </div>
+    <style>
+        .search {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+        }
+        
+        #cate {
+            display: flex;
+            flex-direction: nowrap;
+            background-color: yellow;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        
+        a {
+            color: purple;
+            background-color: yellow;
+            text-align: center;
+            text-decoration: none;
+            padding: 20px;
+            font-weight: bolder;
+            font-style: oblique;
+        }
+        
+        a:hover {
+            text-align: center;
+            text-decoration: none;
+            color: rgb(238, 255, 7);
+            background-color: rgb(161, 71, 247);
+        }
+        
+        .main_photo {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_photo">
+        <img src="photo/사파이어.jpg" width=40%>
+    </div>
+    <div id="cate">
+        <div class="menu_bar1"><a href="당일발송.html">당일발송</a></div>
+        <div class="menu_bar2"><a href="드롭형.html">드롭형</a></div>
+        <div class="menu_bar3"><a href="링형.html">링형</a></div>
+        <div class="menu_bar4"><a href="모빌형.html">모빌형</a></div>
+        <div class="menu_bar5"><a href="버튼형.html">버튼형</a></div>
+        <div class="menu_bar6"><a href="세트.html">세트</a></div>
+        <div class="menu_bar7"><a href="이어커프.html">이어커프</a></div>
+        <div class="menu_bar8"><a href="팔찌.html">팔찌</a></div>
+        <div class="menu_bar9"><a href="피어싱.html">피어싱</a></div>
+        <div class="menu_bar10"><a href="BEST.html">BEST</a></div>
+    </div>
+</body>
+
 </html>
