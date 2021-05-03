@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>문라이즈-NEW</title>
     <div class="search">
-        <input type="text"><button>상품 검색</button>
+        <input type="text"><button>검색</button>
     </div>
     <style>
         .search {
@@ -41,15 +41,12 @@
         
         .main_photo {
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
         }
     </style>
 </head>
 
 <body>
-    <div class="main_photo">
-        <img src="photo/사파이어.jpg" width=40%>
-    </div>
     <div id="cate">
         <div class="menu_bar1"><a href="당일발송.html">당일발송</a></div>
         <div class="menu_bar2"><a href="드롭형.html">드롭형</a></div>
@@ -61,6 +58,28 @@
         <div class="menu_bar8"><a href="팔찌.html">팔찌</a></div>
         <div class="menu_bar9"><a href="피어싱.html">피어싱</a></div>
         <div class="menu_bar10"><a href="BEST.html">BEST</a></div>
+    </div>
+    <div class="main_photo">
+        <img src="photo/사파이어.jpg" width=40%>
+    </div>
+    <div class="sa_info">
+        <h2>Sapphire</h2>
+        <table>
+            <tr>
+                <td>판매가</td>
+                <td>23,000원</td>
+            </tr>
+            <tr>
+                <td>할인가</td>
+                <td>18,000원</td>
+            </tr>
+            <tr>
+                <td>적립금</td>
+                <td>180원</td>
+            </tr>
+        </table>
+        옵션
+        <select name="type" id="sa_type"></select>
     </div>
 </body>
 
