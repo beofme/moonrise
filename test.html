@@ -23,6 +23,21 @@
 </head>
 
 <body>
+    <div style="float:right">
+        <!--오른쪽 정렬-->
+        <input id="Night_Day" type="button" value="Night mode" onclick="
+        if (document.querySelector('#Night_Day').value ==='Night mode'){
+            document.querySelector('body').style.backgroundColor='black';
+            document.querySelector('body').style.color='white';
+            document.querySelector('#Night_Day').value ='Day mode';
+        } else {
+            document.querySelector('body').style.backgroundColor='white';
+            document.querySelector('body').style.color='black';
+            document.querySelector('#Night_Day').value ='Night mode'
+        }
+        ">
+        <!--if를 이용해서 토글키 생성-->
+    </div>
     <div id="상단바메뉴">
         <ul>
             <li><a href="당일발송">당일발송</a></li>

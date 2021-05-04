@@ -65,6 +65,21 @@
 <body>
     <div id="category"></div>
     <div class="banner"></div>
+    <div style="float:right">
+        <!--오른쪽 정렬-->
+        <input id="Night_Day" type="button" value="Night mode" onclick="
+        if (document.querySelector('#Night_Day').value ==='Night mode'){
+            document.querySelector('body').style.backgroundColor='black';
+            document.querySelector('body').style.color='white';
+            document.querySelector('#Night_Day').value ='Day mode';
+        } else {
+            document.querySelector('body').style.backgroundColor='white';
+            document.querySelector('body').style.color='black';
+            document.querySelector('#Night_Day').value ='Night mode'
+        }
+        ">
+        <!--if를 이용해서 토글키 생성-->
+    </div>
     <title>♥Moonrise♥</title>
     <img src="photo/mainPhoto.jpg" width=100%; height=150px;>
     </div>
