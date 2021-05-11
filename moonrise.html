@@ -3,33 +3,13 @@
 
 <head>
     <meta charset="utf-8">
+    <title>♥Moonrise♥</title>
 </head>
 <style>
-    h1 {
-        text-align: center;
-        color: #8414b8;
-    }
-    
-    #cate {
-        padding: 10;
-        border-bottom: 2px solid #fff;
-        border-top: 1px solid #e2e2e2;
-        background-color: rgb(255, 191, 255);
-        min-width: 1300;
-        list-style: none;
-        display: flex;
-        text-align: center;
-        text-decoration: none;
-    }
-    
     li {
         width: 100px;
         height: 50px;
         display: inline-block;
-    }
-    
-    #cate.samplephoto {
-        width: 100%;
     }
     
     a:hover {
@@ -43,11 +23,12 @@
         text-align: center;
     }
     
-    .menu_bar {
+    #cate {
         display: flex;
-        position: relative;
-        justify-content: center;
-        flex-wrap: nowrap;
+        background-color: rebeccapurple;
+        color: yellow;
+        text-decoration: none;
+        flex-direction: row;
     }
     
     span.img {
@@ -55,38 +36,32 @@
         justify-content: center;
         flex-direction: wrap;
     }
-    
-    #cate.a {
-        display: flex;
-        justify-content: center;
-    }
 </style>
 
 <body>
-    <div id="category"></div>
-    <div class="banner"></div>
-    <div style="float:right">
-        <!--오른쪽 정렬-->
-        <input id="Night_Day" type="button" value="Night mode" onclick="
-        if (document.querySelector('#Night_Day').value ==='Night mode'){
-            document.querySelector('body').style.backgroundColor='black';
-            document.querySelector('body').style.color='white';
-            document.querySelector('#Night_Day').value ='Day mode';
-        } else {
-            document.querySelector('body').style.backgroundColor='white';
-            document.querySelector('body').style.color='black';
-            document.querySelector('#Night_Day').value ='Night mode'
-        }
-        ">
-        <!--if를 이용해서 토글키 생성-->
+    <div id="category">
+        <img src="photo/moonrise_logo.jpg" width=100%; height=5%;>
+        <div class="banner">
+            <div style="float:right">
+                <!--오른쪽 정렬-->
+                <input id="Night_Day" type="button" value="Night mode" onclick="
+                if (document.querySelector('#Night_Day').value ==='Night mode'){
+                    document.querySelector('body').style.backgroundColor='black';
+                    document.querySelector('body').style.color='white';
+                    document.querySelector('#Night_Day').value ='Day mode';
+                } else {
+                    document.querySelector('body').style.backgroundColor='white';
+                    document.querySelector('body').style.color='black';
+                    document.querySelector('#Night_Day').value ='Night mode'
+                }
+                ">
+                <!--if를 이용해서 토글키 생성-->
+            </div>
+        </div>
     </div>
-    <title>♥Moonrise♥</title>
-    <img src="photo/mainPhoto.jpg" width=100%; height=150px;>
+
     </div>
     <div id="cate">
-        <div classs="samplephoto">
-
-        </div>
         <div class="menu_bar">
             <div class="menu1"><a href="당일발송.html">당일발송</a></div>
             <div class="menu2"><a href="드롭형.html">드롭형</a></div>
@@ -101,54 +76,52 @@
         </div>
     </div>
     </div>
+    <div id="product">
+        <div class="prod1">
+            <img src="photo/queen1.jpg" width=250px; height=250px;>
+            <img src="photo/queen2.jpg" width=250px; height=250px;>
+            <img src="photo/queen3.jpg" width=250px; height=250px;>
 
-    <div>
-
-        <img src="photo/queen1.jpg" width=250px; height=250px;>
-        <b>queen</b>
-        <img src="photo/queen2.jpg" width=250px; height=250px;>
-        <img src="photo/queen3.jpg" width=250px; height=250px;>
-
-    </div>
-    <div>
-        <span>
+        </div>
+        <div class="prod2">
+            <span>
                 <img src="photo/marble1.jpg" width=250px; height=250px;>
                 <img src="photo/marble2.jpg" width=250px; height=250px;>
                 <img src="photo/marble3.jpg" width=250px; height=250px;>
                 <img src="photo/marble4.jpg" width=250px; height=250px;>
         </span>
-    </div>
-    <div>
-        <span>
+        </div>
+        <div class="prod3">
+            <span>
                 <img src="photo/gift_sam.jpg" width=250px; height=250px;>
                 <img src="photo/gift1.jpg" width=250px; height=250px;>
                 <img src="photo/gift2.jpg" width=250px; height=250px;>
                 <img src="photo/gift3.jpg" width=250px; height=250px;>
         </span>
-    </div>
-    <div>
-        <span>
+        </div>
+        <div class="prod4">
+            <span>
                 <img src="photo/sa_blue1.jpg" width=250px; height=250px;>
                 <img src="photo/sa_blue2.jpg" width=250px; height=250px;>
                 <img src="photo/sa_blue3.jpg" width=250px; height=250px;>
         </span>
-    </div>
-    <div>
-        <span>
+        </div>
+        <div class="prod5">
+            <span>
                 <img src="photo/moon_sam.jpg" width=250px; height=250px;>
                 <img src="photo/moon1.jpg" width=250px; height=250px;>
                 <img src="photo/moon2.jpg" width=250px; height=250px;>
                 <img src="photo/moon3.jpg" width=250px; height=250px;>
             </span>
-    </div>
-    <div>
-        <span>
+        </div>
+        <div>
+            <span>
                 <img src="photo/triangle_move.jpg" width=250px; height=250px;>
                 <img src="photo/triangle_sam.jpg" width=250px; height=250px;>
                 <img src="photo/triangle1.jpg" width=250px; height=250px;>
                 <img src="photo/triangle2.jpg" width=250px; height=250px;>
             </span>
-    </div>
+        </div>
     </div>
 </body>
 
