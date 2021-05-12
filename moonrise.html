@@ -6,14 +6,20 @@
     <title>♥Moonrise♥</title>
 </head>
 <style>
-    li {
-        width: 100px;
-        height: 50px;
-        display: inline-block;
+    li a {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 10px;
+        float: center;
+        color: yellow;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: d2coding;
     }
     
     a:hover {
-        color: rgb(58, 2, 90);
+        color: yellow;
         text-decoration: none;
         background-color: lightslategray;
     }
@@ -24,17 +30,28 @@
     }
     
     #cate {
+        width: 100%;
         display: flex;
         background-color: rebeccapurple;
         color: yellow;
         text-decoration: none;
         flex-direction: row;
+        padding: 10px;
+        margin: 0;
+        list-style: none;
     }
     
     span.img {
         display: flex;
         justify-content: center;
         flex-direction: wrap;
+        flex-direction: column;
+    }
+    
+    #product {
+        display: flex;
+        justify-content: center;
+        flex-flow: row nowrap;
     }
 </style>
 
@@ -58,31 +75,28 @@
                 <!--if를 이용해서 토글키 생성-->
             </div>
         </div>
-    </div>
 
-    </div>
-    <div id="cate">
-        <div class="menu_bar">
-            <div class="menu1"><a href="당일발송.html">당일발송</a></div>
-            <div class="menu2"><a href="드롭형.html">드롭형</a></div>
-            <div class="menu3"><a href="링형.html">링형</a></div>
-            <div class="menu4"><a href="모빌형.html">모빌형</a></div>
-            <div class="menu5"><a href="버튼형.html">버튼형</a></div>
-            <div class="menu6"><a href="세트.html">세트</a></div>
-            <div class="menu7"><a href="이어커프.html">이어커프</a></div>
-            <div class="menu8"><a href="팔찌.html">팔찌</a></div>
-            <div class="menu9"><a href="피어싱.html">피어싱</a></div>
-            <div class="menu10"><a href="BEST.html">BEST</a></div>
+        <div id="cate">
+            <li class="menu_bar">
+                <li class="menu1"><a href="당일발송.html">당일발송</a></li>
+                <li class="menu2"><a href="드롭형.html">드롭형</a></li>
+                <li class="menu3"><a href="링형.html">링형</a></li>
+                <li class="menu4"><a href="모빌형.html">모빌형</a></li>
+                <li class="menu5"><a href="버튼형.html">버튼형</a></li>
+                <li class="menu6"><a href="세트.html">세트</a></li>
+                <li class="menu7"><a href="이어커프.html">이어커프</a></li>
+                <li class="menu8"><a href="팔찌.html">팔찌</a></li>
+                <li class="menu9"><a href="피어싱.html">피어싱</a></li>
+                <li class="menu10"><a href="BEST.html">BEST</a></li>
         </div>
     </div>
-    </div>
     <div id="product">
-        <div class="prod1">
+        <span> class="prod1">
             <img src="photo/queen1.jpg" width=250px; height=250px;>
             <img src="photo/queen2.jpg" width=250px; height=250px;>
             <img src="photo/queen3.jpg" width=250px; height=250px;>
 
-        </div>
+        </span>
         <div class="prod2">
             <span>
                 <img src="photo/marble1.jpg" width=250px; height=250px;>
