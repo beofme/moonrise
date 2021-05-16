@@ -1,0 +1,81 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+        
+        * {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        h3 {
+            font-weight: 400;
+        }
+        
+        #fieldone {
+            background-color: rgb(210, 245, 233);
+            color: rgb(49, 49, 49);
+        }
+        
+        #fieldtwo {
+            background-color: rgb(243, 201, 248);
+            color: rgb(49, 49, 49);
+        }
+        
+        #comp {
+            background-color: blueviolet;
+        }
+        
+        #comp:hover {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1>회원가입을 진행합니다</h1>
+        <hr>
+        <fieldset id="fieldone">
+            <h3>계정 정보</h3>
+            <ul>
+                <li>
+                    <label for="uid">아이디 : <input type="text" autofocus required placeholder="아이디를 입력해주세요"></label>
+                </li>
+                <li>
+                    <label for="pwd1">비밀번호 : <input type="text" required placeholder="비밀번호를 입력해주세요"></label>
+                </li>
+                <li>
+                    <label for="pw2">비밀번호 확인 : <input type="text" required placeholder="한 번 더 비밀번호를 확인합니다"></label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset id="fieldtwo">
+            <h3>기본 정보</h3>
+            <ul>
+                <li>
+                    <label for="name">이름 : <input type="text" placeholder="이름을 입력해주세요."></label>
+                </li>
+                <li>
+                    <label for="phone">연락처 : <input type="tel" placeholder="연락처를 입력해주세요."></label>
+                </li>
+                <li>
+                    <label for="addr">주소 : <input type="text" placeholder="주소를 입력해주세요"></label>
+                </li>
+                <li>
+                    <textarea id="demand" cols="40" rows="5" placeholder="요청 사항을 입력해주세요"></textarea>
+                </li>
+                <input type="submit" id="comp" value="가입하기">
+                <input type="reset" value="다시하기">
+            </ul>
+        </fieldset>
+        <hr>
+    </form>
+
+</body>
+
+</html>
