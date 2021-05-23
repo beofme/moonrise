@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: yellow;
+    color: blueviolet;
+}
+
+title {
+    color: white;
+    text-align: center;
+}
+
+#cate {
+    width: 100%;
+    display: flex;
+    background-color: rebeccapurple;
+    color: yellow;
+    text-decoration: none;
+    flex-direction: row;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    float: left;
+}
+
+#product {
+    display: flex;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+.search {
+    display: inline;
+    float: right;
+}
+
+.main_moon {
+    display: flex;
+    padding: 30px 20px 20px 0;
+}
+
+.exp_moon {
+    display: inline;
+    float: right;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+    color: yellow;
+    background-color: blueviolet;
+    justify-content: row;
+    flex-wrap: nowrap;
+    float: 🇨enter;
+}
+
+.main_gift {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.price_gift {
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+}
