@@ -12,6 +12,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    line-height: 100%;
 }
 
 li a:hover {
@@ -22,6 +23,7 @@ li a:hover {
 title {
     color: white;
     text-align: center;
+    line-height: 100%;
 }
 
 #cate {
@@ -48,6 +50,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: blueviolet;
+    line-height: 100%;
 }
 
 .search {
