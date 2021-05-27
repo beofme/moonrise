@@ -9,7 +9,16 @@ li {
     list-style: none;
 }
 
-li a {
+#cate li a {
+    display: block;
+    padding: 10px;
+    background-color: blueviolet;
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
     display: block;
     color: yellow;
     text-align: center;
@@ -20,15 +29,7 @@ li a {
     padding: 20px;
     font-weight: bold;
     letter-spacing: 0.5em;
-}
-
-li a:hover {
-    background-color: yellow;
     color: blueviolet;
-    border-radius: 20px;
-    margin: 0;
-    padding: 10px;
-    font-weight: bold;
 }
 
 title {
@@ -52,6 +53,7 @@ title {
 
 #cate li {
     list-style: none;
+    float: left;
 }
 
 #product {
@@ -72,10 +74,7 @@ title {
 }
 
 #cate ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    list-style: none;
     background-color: blueviolet;
     line-height: 100%;
 }
