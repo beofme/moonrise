@@ -47,7 +47,7 @@ title {
     padding: 10px;
     margin: 0;
     list-style: none;
-    float: left;
+    clear: both;
 }
 
 #cate li {
@@ -55,7 +55,9 @@ title {
 }
 
 #product {
-    float: left;
+    width: 1200px;
+    height: auto;
+    margin: 20px auto;
 }
 
 .prod1,
@@ -64,11 +66,12 @@ title {
 .prod4,
 .prod5,
 .prod6 {
-    justify-content: center;
-    display: inline-block;
+    margin: 0 auto;
+    width: 1200px;
+    height: 250px;
 }
 
-ul {
+#cate ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -112,4 +115,18 @@ nav {
     display: flex;
     flex-wrap: nowrap;
     float: right;
+}
+
+#section {
+    width: 1200px;
+    height: 50px;
+    background-color: #d1bef3;
+}
+
+#section ul {
+    display: inline-block;
+    color: yellow;
+    margin: 50px auto;
+    width: 800px;
+    background-color: ;
 }
