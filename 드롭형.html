@@ -10,68 +10,79 @@
             <input type="text" class="MS_search_word" name="global_search" value="" onclick="javascript:this.value=''">
             <a href="#none" class="btn-global-search">검색</a>
         </fieldset>
+        <style type="text/css">
+            .searchArea {
+                display: inline-block;
+                justify-content: right;
+            }
+            
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            
+            p {
+                text-align: center;
+            }
+            
+            h1 {
+                font-size: 45px;
+                text-align: center;
+            }
+            
+            h2 {
+                background-color: #a7c2f3;
+            }
+            
+            .sample_que {
+                text-align: center;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            li {
+                float: left;
+                list-style: none;
+                margin: 1px;
+            }
+            
+            li a {
+                display: block;
+                width: 85px;
+                height: 30px;
+                background: #a7c2f3;
+                color: #FFF;
+                border: 3px solid blue;
+                font-size: 12px;
+                font-family: "Helvetica";
+                text-align: center;
+                padding-top: 8px;
+                text-decoration: none;
+            }
+            
+            li a span {
+                display: block;
+            }
+            
+            li a:hover {
+                background: #A9A9A9;
+                text-decoration: none;
+            }
+        </style>
+
     </div>
-    <h1>드롭형</h1>
+
 </head>
 
 <body>
-    <style type="text/css">
-        a {
-            color: black;
-            text-decoration: none;
-        }
-        
-        p {
-            text-align: center;
-        }
-        
-        h1 {
-            font-size: 45px;
-            text-align: center;
-        }
-    </style>
-
-    <h1>
-        <div style="background-color:#a65ac2"><a href="moonrise.html" id="M">Moonrise</a></div>
-    </h1>
+    <h1>드롭형</h1>
+    <h2 id="small_sub">Moonrise</h2>
     <!--상단에 화면채운 헤더-->
     <div style="background-color:#B0C4DE"></div>
-    <style type="text/css">
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        li {
-            float: left;
-            list-style: none;
-            margin: 1px;
-        }
-        
-        li a {
-            display: block;
-            width: 85px;
-            height: 30px;
-            background: #a7c2f3;
-            color: #FFF;
-            border3px solid blue;
-            font-size: 12px;
-            font-family: "Helvetica";
-            text-align: center;
-            padding-top: 8px;
-            text-decoration: none;
-        }
-        
-        li a span {
-            display: block;
-        }
-        
-        li a:hover {
-            background: #A9A9A9;
-            text-decoration: none;
-        }
-    </style>
-    <a href="queen.html"><img src="photo/queen.jpg"></a>
+    <a class="sample_que" href="queen.html"><img src="photo/queen1.jpg" width="100%">Queen</a>
 </body>
 
 </html>
