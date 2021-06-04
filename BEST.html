@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>문라이즈-BEST상품</title>
-    <h1>BEST</h1>
+
     <style>
         .menu_bar {
             display: flex;
@@ -13,6 +13,7 @@
             background-color: blueviolet;
             font-family: Arial, Helvetica, sans-serif;
             justify-content: flex-start;
+            list-style: none;
         }
         
         .menu_bar a {
@@ -23,7 +24,6 @@
             font-weight: 300;
             flex-direction: row;
             text-align: center;
-            list-style: none;
         }
         
         a:hover {
@@ -35,10 +35,56 @@
         #cate {
             display: flex;
         }
+        
+        .menu_bar ul li {
+            list-style: none;
+        }
+        
+        .banner {
+            font-size: xx-large;
+            text-align: center;
+            color: rgb(119, 117, 117);
+            font-weight: bolder;
+            padding: 20px;
+            background-color: rgb(211, 178, 248);
+            background: linear-gradient(to bottom, rgb(211, 178, 248), white 30%, rgb(211, 178, 248));
+        }
+        
+        #best_cont img {
+            display: inline-block;
+            justify-content: flex-start;
+            width: 30%;
+            padding: 10px;
+            margin: 0;
+        }
+        
+        .best_cont img {
+            display: inline-block;
+            position: absolute;
+            top: 200px;
+            width: 300px;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0.6);
+            opacity: 1;
+            transition: all 0.6s ease-in-out;
+            z-index: 10;
+            transform: translateY(-200px);
+        }
+        
+        .best_cont {
+            margin: 10px;
+            position: relative;
+        }
+        
+        .best_cont .capt {
+            color: #fff;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
+    <div class="banner">BEST</div>
     <div id="cate">
         <div class="menu_bar">
             <ul>
@@ -55,6 +101,28 @@
                     <a href="모빌형.html">모빌형</a>
                 </li>
             </ul>
+        </div>
+    </div>
+    <div id="best_cont">
+        <div class="capt">
+            <img src="photo/marble1.jpg" alt="marble">
+            <h2>MARBLE</h2>
+            <p>18,000원</p>
+            <p>드롭형</p>
+        </div>
+        <div class="capt">
+            <img src="photo/gift1.jpg" alt="gift">
+            <h2>
+                GIFT
+            </h2>
+            <p>18,000원</p>
+        </div>
+        <div class="capt">
+            <img src="photo/fullmoon1.jpg" alt="fullmoon">
+            <h2>
+                FULLMOON
+            </h2>
+            <p>22,000원</p>
         </div>
     </div>
 </body>
