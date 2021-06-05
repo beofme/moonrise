@@ -21,6 +21,22 @@
             margin: 20px;
         }
         
+        .qphoto:hover {
+            animation: rotateQue 2.5s infinite;
+        }
+        
+        @keyframes rotateQue {
+            from {
+                transform: rotateX(0deg);
+            }
+            50% {
+                transform: rotateX(30deg);
+            }
+            to {
+                transform: rotateX(60deg);
+            }
+        }
+        
         .queen_main {
             display: block;
             float: center;
@@ -52,7 +68,8 @@
             padding: 10;
             border-bottom: 2px solid #fff;
             border-top: 1px solid #e2e2e2;
-            background-color: aliceblue;
+            background-color: rgb(176, 176, 250);
+            color: white;
             min-width: 1300;
             list-style: none;
             display: block;
@@ -96,6 +113,10 @@
         
         table {
             padding-top: 10px;
+        }
+        
+        .samplephoto ul {
+            display: inline-block;
         }
     </style>
 </head>

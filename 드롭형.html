@@ -4,85 +4,103 @@
 <head>
     <meta charset="utf-8">
     <title>문라이즈-드롭형</title>
-    <div class="searchArea">
-        <fieldset>
-            <legend>상품 검색 폼</legend>
-            <input type="text" class="MS_search_word" name="global_search" value="" onclick="javascript:this.value=''">
-            <a href="#none" class="btn-global-search">검색</a>
-        </fieldset>
-        <style type="text/css">
-            .searchArea {
-                display: inline-block;
-                justify-content: right;
-            }
-            
-            a {
-                color: black;
-                text-decoration: none;
-            }
-            
-            p {
-                text-align: center;
-            }
-            
-            h1 {
-                font-size: 45px;
-                text-align: center;
-            }
-            
-            h2 {
-                background-color: #a7c2f3;
-            }
-            
-            .sample_que {
-                text-align: center;
-            }
-            
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            
-            li {
-                float: left;
-                list-style: none;
-                margin: 1px;
-            }
-            
-            li a {
-                display: block;
-                width: 85px;
-                height: 30px;
-                background: #a7c2f3;
-                color: #FFF;
-                border: 3px solid blue;
-                font-size: 12px;
-                font-family: "Helvetica";
-                text-align: center;
-                padding-top: 8px;
-                text-decoration: none;
-            }
-            
-            li a span {
-                display: block;
-            }
-            
-            li a:hover {
-                background: #A9A9A9;
-                text-decoration: none;
-            }
-        </style>
+
+    <style type="text/css">
+        .searchArea {
+            display: inline-block;
+            float: right;
+        }
+        
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 45px;
+            text-align: center;
+        }
+        
+        h2 {
+            background-color: #a7c2f3;
+        }
+        
+        .sample_que {
+            text-align: center;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            float: left;
+            list-style: none;
+            margin: 1px;
+        }
+        
+        li a {
+            display: block;
+            width: 85px;
+            height: 30px;
+            background: #a7c2f3;
+            color: #FFF;
+            border: 3px solid blue;
+            font-size: 12px;
+            font-family: "Helvetica";
+            text-align: center;
+            padding-top: 8px;
+            text-decoration: none;
+        }
+        
+        li a span {
+            display: block;
+        }
+        
+        li a:hover {
+            background: #A9A9A9;
+            text-decoration: none;
+        }
+        
+        .MS_search_word {
+            float: right;
+        }
+        
+        .btn-global-search {
+            float: right;
+            border: 1px solid gray;
+        }
+        
+        .sample_que {
+            display: inline-block;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            border: 1px 0 1px solid lightblue;
+        }
+    </style>
 
     </div>
 
 </head>
 
 <body>
-    <h1>드롭형</h1>
-    <h2 id="small_sub">Moonrise</h2>
-    <!--상단에 화면채운 헤더-->
-    <div style="background-color:#B0C4DE"></div>
-    <a class="sample_que" href="queen.html"><img src="photo/queen1.jpg" width="100%">Queen</a>
+    <div class="searchArea">
+        <fieldset>
+            <legend>상품 검색 폼</legend>
+            <input type="text" class="MS_search_word" name="global_search" value="" onclick="javascript:this.value=''">
+            <a href="#none" class="btn-global-search">검색</a>
+        </fieldset>
+        <h1>드롭형</h1>
+        <h2 id="small_sub">Moonrise</h2>
+        <!--상단에 화면채운 헤더-->
+        <div style="background-color:#B0C4DE"></div>
+        <a class="sample_que" href="queen.html"><img src="photo/queen1.jpg" width="100%">Queen</a>
 </body>
 
 </html>
