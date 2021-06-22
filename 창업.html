@@ -17,7 +17,8 @@
             float: left;
             padding: 0 30px;
         }
-        .menu_chang ul li:hover{
+        
+        .menu_chang ul li:hover {
             background-color: gray;
             color: white;
             padding: 10px;
@@ -30,7 +31,16 @@
             align-items: center;
             border-bottom: 2px solid gray;
             padding: 20px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        #main {
+            background-color: lightcoral;
+        }
+        
+        .card {
+            border: 1px solid gray;
+            grid-template-rows: repeat(3, 100px);
         }
     </style>
 </head>
@@ -44,6 +54,11 @@
             <li>자사쇼핑몰 목록</li>
             <li>상담문의</li>
         </ul>
+    </div>
+    <div id="main">
+        <div class="card"><img src=".img" alt="1️">1</div>
+        <div class="card"><img src=".img" alt="2">2</div>
+        <div class="card"><img src=".img" alt="3">3</div>
     </div>
 </body>
 
